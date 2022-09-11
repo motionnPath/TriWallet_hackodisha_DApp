@@ -1,4 +1,5 @@
-export const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+//export const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; // FOR HARDHAT NODE locally
+export const contractAddress ="0x15ADA67F1132661396D85699da6BCFdDc2006D61";
 export const abi = [
   {
     "inputs": [],
