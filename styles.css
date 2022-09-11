@@ -1,0 +1,83 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	color: #1d1d1f;
+	background-image: linear-gradient(
+		to right bottom,
+		#051937,
+		#005274,
+		#008f8e,
+		#5fca80,
+		#f9f871
+	);
+
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-shadow: 0px 1px 7px #898999;
+	color: #fff;
+	font-family: "Nunito Sans", sans-serif;
+}
+html {
+	min-height: 100%;
+}
+#header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	align-items: center;
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 80%;
+}
+.btn {
+	background: lightcyan;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #0c0f0a;
+	border-radius: 5px;
+}
+.wallet-button {
+	box-shadow: 10px 10px teal;
+}
+#blob-1 {
+	position: absolute;
+	left: 330px;
+	top: 300px;
+	z-index: -1;
+}
+#blob-2 {
+	position: absolute;
+	left: 784px;
+	top: 280px;
+	z-index: -1;
+}
+#logo {
+	width: 200px;
+	height: 50px;
+    object-fit:cover;
+}
+#hero-section {
+	width: 80%;
+	display: block;
+	text-align: start;
+	margin: 50px auto;
+}
+#option-section {
+	margin: 200px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.hospital-btn:hover {
+	background: plum;
+	box-shadow: 10px 10px teal;
+	color: rgb(23, 2, 44);
+}
+.patient-btn:hover {
+	background: plum;
+	color: rgb(23, 2, 44);
+	box-shadow: 10px 10px teal;
+}
