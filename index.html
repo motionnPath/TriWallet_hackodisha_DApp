@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="connectButton">connect wallet</button>
+    
+    <button id="addKlinikButton">subscribe As Klinik</button>
+    <input id="klinikAddr" placeholder="klinik Wallet Addr" type="text"/>
+    <input id="klinikName" placeholder="klinik Name" type="text"/>
+    
+    <button id="subscribeAsPatientButton">subscribe As Patient</button>
+    <input id="patientName" placeholder="Name" type="text"/>
+    <input id="patientAge" placeholder="Age" type="number"/>
+    <input id="patientAddress" placeholder="Address" type="text" />
+
+    <button id="createPatientRecord">create a new record</button>
+    <input id="patientWalletAddr" placeholder="patient Wallet Addr" type="text"/>
+    <input id="klinikWallet" placeholder="klinik Wallet Addr" type="text"/>
+    <textarea id="patientTraitement" placeholder="patient Traitement" ></textarea>
+    <textarea id="patientPerscription" placeholder="patient Perscription"></textarea>
+    <input id="patientDept" placeholder="Amout To be paied" type="text" />
+
+    <button id="payBill">pay Bill </button>
+    <input id="payBillAddr" type="text" placeholder="pls enter your wallet address">
+
+    <button id="withDraw">Withdraw Funds</button>
+    <input id="KlinikWithDraw" placeholder="your wallet address .. " type="text"/>
+    <button id="finalRecord"> Get Patient Record</button>
+    <input  id="finalRecordAddreeesse" type="text"/>
+
+    <div class="display">
+        <h1>Patient Identity Card</h1>
+        <div id="person">
+            <h1 id="name"></h1>
+            <h1 id="age"></h1>
+            <h1 id="location"></h1>
+        </div>
+        <div id="record">
+            
+        </div>
+
+    </div>
+    
+</body>
+<script src="./index.js" type="module"></script>
+</html>
