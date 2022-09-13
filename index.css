@@ -26,6 +26,7 @@ svg{
     border-radius: 10px;
     padding: 1px 1em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
    
@@ -54,8 +55,9 @@ button:hover{
 .choice{
 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 28em auto 100px auto;
+    margin: 600px auto 100px auto;
     
 }
 #patient, #hospital{
