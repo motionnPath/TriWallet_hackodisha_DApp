@@ -1,0 +1,11 @@
+{
+  "homepage": "https://motionnPath.github.io/TriWallet_hackodisha_DApp",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  }
+}
