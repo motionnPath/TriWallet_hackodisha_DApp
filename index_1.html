@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Patient</title>
+<<<<<<< HEAD
+    <title>Home</title>
+=======
+    <title>TriWallet</title>
+>>>>>>> 0d969b47e3afffa7dead8e03297b6b8bce277f1f
 </head>
-<body>
+<body class="patient">
     <div class="toolbar">
-        <a href="./index_1.html">
+        <a href="./index.html">
             <svg fill="#000000"  
             viewBox="0 0 24 24" 
             width="24px" 
@@ -21,20 +25,14 @@
                 L 12 4.7910156 z"/>
             </svg>
         </a>
-         
+        <button id="connectButton">connect wallet</button>   
         <h3>triWallet</h3> 
     </div>
-
-<div class="patient_form">
-    <button id="subscribeAsPatientButton">subscribe As Patient</button>
-    <input id="patientName" placeholder="Name" type="text"/>
-    <input id="patientAge" placeholder="Age" type="number"/>
-    <input id="patientAddress" placeholder="Address" type="text" />
-
-    <button id="payBill">pay Bill </button>
-    <input id="payBillAddr" type="text" placeholder="pls enter your wallet address">
-</div>
+    <div class="choice">
+        <div id="patient"><a href="./patient.html">I'm a Patient</a></div>
+        <div id="hospital"><a href="./hospital.html">I'm a Hospital</a></div>
+    </div>
     
 </body>
-<script src="./patient.js" type="module"></script>
+<script src="./home.js" type="module"></script>
 </html>
